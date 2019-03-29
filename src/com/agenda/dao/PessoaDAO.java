@@ -4,9 +4,8 @@ import com.agenda.modelo.Pessoa;
 
 public class PessoaDAO {
 	
-	public void recebe(Pessoa pessoa) {
-		
-		System.out.println(pessoa.getNome());
+	public void adiciona(Pessoa pessoa) {
+		String SQL = "Insert into pessoas(nome, email, endereco, telefone) values(?,?,?,?)";
 	}
 
 }
